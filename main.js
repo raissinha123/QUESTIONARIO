@@ -22,4 +22,4 @@ const perguntas = [
     enunciado: "Pergunta 4"
     alternativas: ["alternativa1", "alternativa2", "alternativa3"]
 },
-]
+];
