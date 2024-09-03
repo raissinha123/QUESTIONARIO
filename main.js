@@ -7,12 +7,12 @@ const textoResultado = document.querySelector(".texto-resultado");
 
 const perguntas = [
 {
-    enunciado: "Pergunta 1",
-    alternativas: ["alternativa1", "alternativa2", "alternativa3"]
+    enunciado: "quantas estações tem no ano?",
+    alternativas: ["4 estações", "3 estações", "5 estações"]
 },
 {
-    enunciado: "Pergunta 2",
-    alternativas: ["alternativa1", "alternativa2", "alternativa3"]
+    enunciado: "quantos meses dura uma estação?",
+    alternativas: ["3 meses", "1 mês", "6 meses"]
 },
 {
     enunciado: "Pergunta 3",
@@ -22,4 +22,19 @@ const perguntas = [
     enunciado: "Pergunta 4",
     alternativas: ["alternativa1", "alternativa2", "alternativa3"]
 },
+
+
 ];
+
+let atual = 0;
+let perguntaAtual;
+
+function mostraPergunta(){
+    perguntaAtual = perguntas[atual];
+
+
+
+
+}
+
+
