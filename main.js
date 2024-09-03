@@ -31,10 +31,10 @@ let perguntaAtual;
 
 function mostraPergunta(){
     perguntaAtual = perguntas[atual];
-
-
-
+    caixaPergunta.textContent = perguntaAtual.enunciado;
 
 }
+
+mostraPergunta();
 
 
