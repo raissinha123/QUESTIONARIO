@@ -15,8 +15,8 @@ const perguntas = [
     alternativas: ["3 meses", "1 mês", "6 meses"]
 },
 {
-    enunciado: "Pergunta 3",
-    alternativas: ["alternativa1", "alternativa2", "alternativa3"]
+    enunciado: "Qual é o movimento da Terra responsável pelas estações do ano?",
+    alternativas: ["Rotação", "Translação", "Nutação"]
 },
 {
     enunciado: "Pergunta 4",
